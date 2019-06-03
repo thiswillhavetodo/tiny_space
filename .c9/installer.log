@@ -1,0 +1,93 @@
+
+> aws-sam-local@0.2.11 postinstall /opt/c9/node_modules/aws-sam-local
+> go-npm install
+
+Downloading from URL: https://github.com/awslabs/aws-sam-local/releases/download/v0.2.11/sam_0.2.11_linux_amd64.tar.gz
+/opt/c9
+└─┬ aws-sam-local@0.2.11 
+  └─┬ go-npm@0.1.9 
+    ├─┬ request@2.88.0 
+    │ ├── aws-sign2@0.7.0 
+    │ ├── aws4@1.8.0 
+    │ ├── caseless@0.12.0 
+    │ ├─┬ combined-stream@1.0.7 
+    │ │ └── delayed-stream@1.0.0 
+    │ ├── extend@3.0.2 
+    │ ├── forever-agent@0.6.1 
+    │ ├─┬ form-data@2.3.3 
+    │ │ └── asynckit@0.4.0 
+    │ ├─┬ har-validator@5.1.3 
+    │ │ ├─┬ ajv@6.10.0 
+    │ │ │ ├── fast-deep-equal@2.0.1 
+    │ │ │ ├── fast-json-stable-stringify@2.0.0 
+    │ │ │ ├── json-schema-traverse@0.4.1 
+    │ │ │ └─┬ uri-js@4.2.2 
+    │ │ │   └── punycode@2.1.1 
+    │ │ └── har-schema@2.0.0 
+    │ ├─┬ http-signature@1.2.0 
+    │ │ ├── assert-plus@1.0.0 
+    │ │ ├─┬ jsprim@1.4.1 
+    │ │ │ ├── extsprintf@1.3.0 
+    │ │ │ ├── json-schema@0.2.3 
+    │ │ │ └── verror@1.10.0 
+    │ │ └─┬ sshpk@1.16.1 
+    │ │   ├── asn1@0.2.4 
+    │ │   ├── bcrypt-pbkdf@1.0.2 
+    │ │   ├── dashdash@1.14.1 
+    │ │   ├── ecc-jsbn@0.1.2 
+    │ │   ├── getpass@0.1.7 
+    │ │   ├── jsbn@0.1.1 
+    │ │   ├── safer-buffer@2.1.2 
+    │ │   └── tweetnacl@0.14.5 
+    │ ├── is-typedarray@1.0.0 
+    │ ├── isstream@0.1.2 
+    │ ├── json-stringify-safe@5.0.1 
+    │ ├─┬ mime-types@2.1.22 
+    │ │ └── mime-db@1.38.0 
+    │ ├── oauth-sign@0.9.0 
+    │ ├── performance-now@2.1.0 
+    │ ├── qs@6.5.2 
+    │ ├─┬ tough-cookie@2.4.3 
+    │ │ ├── psl@1.1.31 
+    │ │ └── punycode@1.4.1 
+    │ └── uuid@3.3.2 
+    └─┬ tar@2.2.1 
+      ├── block-stream@0.0.9 
+      └─┬ fstream@1.0.11 
+        ├── graceful-fs@4.1.15 
+        └─┬ rimraf@2.6.3 
+          └─┬ glob@7.1.3 
+            ├── fs.realpath@1.0.0 
+            ├── inflight@1.0.6 
+            ├─┬ minimatch@3.0.4 
+            │ └─┬ brace-expansion@1.1.11 
+            │   ├── balanced-match@1.0.0 
+            │   └── concat-map@0.0.1 
+            └── path-is-absolute@1.0.1 
+
+Downloading... https://s3.amazonaws.com/ami-automation-resources/lambda-server.tar.gz
+[01;30m[0mUnpacking... /home/ubuntu/.c9/lib/lambda-server.tar.gz
+[01;30m[0mserver@1.0.0 /opt/c9/lib/server
+└── amd-loader@0.0.8 
+
+server@1.0.0 /opt/c9/lib/server
+└── async@2.6.2 
+
+server@1.0.0 /opt/c9/lib/server
+└── aws-sdk@2.437.0 
+
+server@1.0.0 /opt/c9/lib/server
+└── commander@2.20.0 
+
+server@1.0.0 /opt/c9/lib/server
+└── http-error@0.0.6 
+
+server@1.0.0 /opt/c9/lib/server
+└── js-yaml@3.13.1 
+
+server@1.0.0 /opt/c9/lib/server
+└── mkdirp@0.5.1 
+
+server@1.0.0 /opt/c9/lib/server
+└── uuid@3.3.2 
+
