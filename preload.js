@@ -4,9 +4,9 @@ var preloadScene = new Phaser.Scene('preload');
 
 preloadScene.preload = function() {
 	
-	var logo = this.add.image(400, 200, 'rubbleLogoLarge');
+	var logo = this.add.image(425, 200, 'rubbleLogoLarge');
 	logo.alpha = 0;
-	this.add.text(335, 350, "Loading...", { fontSize: '38px', fill: '#fff' }).setFontFamily('Arial');
+	this.add.text(360, 350, "Loading...", { fontSize: '38px', fill: '#fff' }).setFontFamily('Arial');
 	this.tweens.add({
         targets: logo,
         alpha: 1,
@@ -41,6 +41,7 @@ preloadScene.preload = function() {
     //images
     
     this.load.image('buttonLong', 'gameassets/images/button250x72blue.png');
+	this.load.image('button', 'gameassets/images/button200x66blue.png');
 };
 
 preloadScene.create = function() {
@@ -52,12 +53,12 @@ preloadScene.create = function() {
     }*/
     //this.animsCreate();
 	
-	var startButton = this.add.sprite(400, 375, 'buttonLong').setInteractive( { useHandCursor: true  } );
+	var startButton = this.add.sprite(425, 375, 'buttonLong').setInteractive( { useHandCursor: true  } );
     startButton.on('pointerdown', this.start); 
-    this.add.text(350, 350, "Play!", { fontSize: '38px', fill: '#fff' }).setFontStyle('bold italic').setFontFamily('Arial').setPadding({ right: 16 });
-    var startMutedButton = this.add.sprite(400, 475, 'buttonLong').setInteractive( { useHandCursor: true  } );
+    this.add.text(375, 350, "Play!", { fontSize: '38px', fill: '#fff' }).setFontStyle('bold italic').setFontFamily('Arial').setPadding({ right: 16 });
+    var startMutedButton = this.add.sprite(425, 475, 'buttonLong').setInteractive( { useHandCursor: true  } );
     startMutedButton.on('pointerdown', this.startMuted); 
-    this.add.text(295, 450, "Play Muted", { fontSize: '38px', fill: '#fff' }).setFontStyle('bold italic').setFontFamily('Arial').setPadding({ right: 16 });
+    this.add.text(320, 450, "Play Muted", { fontSize: '38px', fill: '#fff' }).setFontStyle('bold italic').setFontFamily('Arial').setPadding({ right: 16 });
 	
 };
 
